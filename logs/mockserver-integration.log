@@ -1,0 +1,107 @@
+I, [2018-05-29T11:44:24.892825 #85144]  INFO -- : Registered expected interaction GET /api/v1/ideas.json
+D, [2018-05-29T11:44:24.893172 #85144] DEBUG -- : {
+  "description": "GET ideas",
+  "providerState": "i have a list of ideas",
+  "request": {
+    "method": "GET",
+    "path": "/api/v1/ideas.json",
+    "query": "",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": [
+      {
+        "id": 4,
+        "title": "Card game design",
+        "body": "Like Uno but involves drinking",
+        "created_at": "2018-05-24T22:41:38.195Z",
+        "updated_at": "2018-05-24T22:41:38.195Z"
+      },
+      {
+        "id": 3,
+        "title": "A novel set in Italy",
+        "body": "A mafia crime drama starring Berlusconi",
+        "created_at": "2018-05-24T22:41:38.194Z",
+        "updated_at": "2018-05-24T22:41:38.194Z"
+      },
+      {
+        "id": 2,
+        "title": "A twitter client idea",
+        "body": "Only for replying to mentions and DMs",
+        "created_at": "2018-05-24T22:41:38.192Z",
+        "updated_at": "2018-05-24T22:41:38.192Z"
+      },
+      {
+        "id": 1,
+        "title": "A new cake recipe",
+        "body": "Made of chocolate",
+        "created_at": "2018-05-24T22:41:38.190Z",
+        "updated_at": "2018-05-24T22:41:38.190Z"
+      }
+    ]
+  }
+}
+I, [2018-05-29T11:44:24.900367 #85144]  INFO -- : Received request GET /api/v1/ideas.json
+D, [2018-05-29T11:44:24.900492 #85144] DEBUG -- : {
+  "path": "/api/v1/ideas.json",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.16.2",
+    "Host": "localhost:3001",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-05-29T11:44:24.900697 #85144]  INFO -- : Found matching response for GET /api/v1/ideas.json
+D, [2018-05-29T11:44:24.900833 #85144] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": [
+    {
+      "id": 4,
+      "title": "Card game design",
+      "body": "Like Uno but involves drinking",
+      "created_at": "2018-05-24T22:41:38.195Z",
+      "updated_at": "2018-05-24T22:41:38.195Z"
+    },
+    {
+      "id": 3,
+      "title": "A novel set in Italy",
+      "body": "A mafia crime drama starring Berlusconi",
+      "created_at": "2018-05-24T22:41:38.194Z",
+      "updated_at": "2018-05-24T22:41:38.194Z"
+    },
+    {
+      "id": 2,
+      "title": "A twitter client idea",
+      "body": "Only for replying to mentions and DMs",
+      "created_at": "2018-05-24T22:41:38.192Z",
+      "updated_at": "2018-05-24T22:41:38.192Z"
+    },
+    {
+      "id": 1,
+      "title": "A new cake recipe",
+      "body": "Made of chocolate",
+      "created_at": "2018-05-24T22:41:38.190Z",
+      "updated_at": "2018-05-24T22:41:38.190Z"
+    }
+  ]
+}
+I, [2018-05-29T11:44:24.912347 #85144]  INFO -- : Verifying - interactions matched
+I, [2018-05-29T11:44:24.913926 #85144]  INFO -- : Updating pact for Pact Provider at /Users/aaron.humerickhouse/dev/pact_consumer/pacts/pact_consumer-pact_provider.json
+I, [2018-05-29T11:44:24.916198 #85144]  INFO -- : *****************************************************************************
+I, [2018-05-29T11:44:24.916410 #85144]  INFO -- : Updating existing file ./Users/aaron.humerickhouse/dev/pact_consumer/pacts/pact_consumer-pact_provider.json as pactfile_write_mode is :update
+I, [2018-05-29T11:44:24.916462 #85144]  INFO -- : Only interactions defined in this test run will be updated.
+I, [2018-05-29T11:44:24.916489 #85144]  INFO -- : As interactions are identified by description and provider state, pleased note that if either of these have changed, the old interactions won't be removed from the pact file until the specs are next run with :pactfile_write_mode => :overwrite.
+I, [2018-05-29T11:44:24.916511 #85144]  INFO -- : *****************************************************************************
+I, [2018-05-29T11:44:24.919210 #85144]  INFO -- : Cleared interactions
