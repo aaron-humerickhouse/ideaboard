@@ -20,8 +20,8 @@
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "pactTest": "export NODE_ENV=pactTest && jest --testRegex \"./test/pact/*/.*(.test.pact.js)\" --runInBand --setupFiles ./test/pact/pactSetup.js --setupTestFrameworkScriptFile ./test/pact//pactTestWrapper.js",
-    "pactPublish": "node ./test/pact/publish.js"
+    "pact:test": "export NODE_ENV=pactTest && jest --testRegex \"./test/pact/*/.*(.test.pact.js)\" --runInBand --setupFiles ./test/pact/pactSetup.js --setupTestFrameworkScriptFile ./test/pact//pactTestWrapper.js",
+    "pact:publish": "node ./test/pact/publish.js"
   },
   "jest": {
     "testEnvironment": "node"
